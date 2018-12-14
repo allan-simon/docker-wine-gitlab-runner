@@ -18,4 +18,4 @@ RUN dpkg --add-architecture i386 && \
         libffi-dev \
         libssl-dev \
         wine && \
-    pip3 install pip --update
+    pip3 install pip --upgrade
